@@ -1,0 +1,29 @@
+/* Fornt */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* ====== Global ====== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: rgba(0,0,0,0.5);
+    padding: 80px 100px;
+}
+.content #submit{
+    background-color: green;
+    padding: 8px 53px;
+    margin: 0 0px;
+    margin-top: 10px;
+}
