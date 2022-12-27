@@ -1,0 +1,109 @@
+/* Fornt */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* ====== Global ====== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+
+/* ====== Navbar ====== */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 4px;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+.nav-links li .active{
+    color: green;
+}
+.nav-links li:hover{
+    background-color: rgb(158, 0, 221);
+}
+/* ====== About Me ====== */
+.about-me{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* ====== Projects ====== */
+.projects{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* ====== Header ====== */
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(0, 183, 255);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: rgb(245, 2, 83);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.navbar .nav-links li a{
+    color: rgb(255, 255, 255);
+}
